@@ -213,7 +213,7 @@ INF  MdeModulePkg/Universal/Acpi/AcpiTableDxe/AcpiTableDxe.inf
 INF  OvmfPkg/AcpiPlatformDxe/AcpiPlatformDxe.inf
 INF  RuleOverride=ACPITABLE OvmfPkg/AcpiTables/AcpiTables.inf
 
-INF  RuleOverride = BINARY FatBinPkg/EnhancedFatDxe/Fat.inf
+INF  ThinFatPkg/ThinFat.inf
 
 !if $(BUILD_NEW_SHELL)
 INF  ShellPkg/Application/Shell/Shell.inf

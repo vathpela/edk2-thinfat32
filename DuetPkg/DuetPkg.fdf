@@ -107,8 +107,8 @@ INF  MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe.inf
 INF  MdeModulePkg/Universal/Disk/PartitionDxe/PartitionDxe.inf
 INF  DuetPkg/BiosVideoThunkDxe/BiosVideo.inf
 
-  # Binary INF file to support toggle among different CPU architectures.
-INF  RuleOverride=BINARY FatBinPkg/EnhancedFatDxe/Fat.inf
+  # ESP support
+INF  ThinFatPkg/ThinFat.inf
 
 FILE FREEFORM = PCD(gEfiIntelFrameworkModulePkgTokenSpaceGuid.PcdLogoFile) {
     SECTION RAW = MdeModulePkg/Logo/Logo.bmp
