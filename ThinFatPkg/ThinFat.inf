@@ -37,7 +37,7 @@
   FILE_GUID                      = 7D7F27FB-98E9-4FA3-9E26-445E569F5965
   MODULE_TYPE                    = PEIM
   VERSION_STRING                 = 1.1
-  ENTRY_POINT                    = FatPeimEntryPoint
+  ENTRY_POINT                    = FatPeimEntry
 
 [Sources]
   ThinFat32.c
